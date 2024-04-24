@@ -1,12 +1,16 @@
-import { PropsWithChildren } from 'react';
 import { CardPropsIntf } from "../../model/CardPropsIntf";
+import CardBody from "../cardbody/CardBody"
 import "./Card.css";
 
-export const Card = (props: PropsWithChildren) => {
-  
+export default function Card(props: React.PropsWithChildren<CardPropsIntf>) {
+  const { children } = props;
+
   return (
     <div className="card">
-      {props.children}  
+      {children}
+      <CardBody {...props} />
     </div>
-  );
-}
+
+  )
+};
+
