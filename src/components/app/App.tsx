@@ -37,7 +37,6 @@ function App() {
           </figure>
         </Card>
       </div>
-
       <div className="card-container">
         <Card
           title="Billy Gibbons «Hardware»"
@@ -51,4 +50,3 @@ function App() {
 }
 
 export default App
-

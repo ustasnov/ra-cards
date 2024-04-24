@@ -10,7 +10,5 @@ export default function Card(props: React.PropsWithChildren<CardPropsIntf>) {
       {children}
       <CardBody {...props} />
     </div>
-
   )
 };
-
