@@ -12,7 +12,7 @@ function App() {
           linktext="Читать статью"
           link="https://iz.ru/1592631/oleg-sobolev/rok-dlia-frankenshteina-kakim-poluchilsia-novyi-albom-rolling-stones">
           <figure className="card-figure">
-            <img className="card-image" src="../public/rollingstones.jpg" alt="Card image" />
+            <img className="card-image" src="/rollingstones.jpg" alt="Card image" />
           </figure>
         </Card>
       </div>
@@ -33,7 +33,7 @@ function App() {
           linktext="Читать статью"
           link="https://www.rockfm.ru/news/vossoedinenie-the-beatles-vyshla-poslednyaya-pesnya-gruppy-now-and-then">
           <figure className="card-figure">
-            <img className="card-image" src="../public/beatles.jpg" alt="Card image" />
+            <img className="card-image" src="/beatles.jpg" alt="Card image" />
           </figure>
         </Card>
       </div>
